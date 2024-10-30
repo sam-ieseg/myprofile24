@@ -1,0 +1,60 @@
+body{
+	background-color: rgb(253, 235, 208);
+	color: rgb(160, 64, 0);
+	font-family: georgia;
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: 0.5px;
+}
+h1{
+	font-family: Impact;
+	color: rgb(100, 100, 100);
+}
+h2{
+	font-family: impact;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	text-align: center;
+}
+.card-white{
+	width:600px;
+	margin:5px auto;
+	background-color: white;
+	border-radius: 5%;
+}
+#pfp {
+	border-radius: 20%;
+	border: 2px black;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: darkseagreen;
+}
+.list-inline i:hover {
+	color: rgb(160, 64, 0);
+}
+button {
+	font-size: 20px;
+	color: darkseagreen;
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
